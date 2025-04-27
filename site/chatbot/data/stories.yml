@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: Session start
+  steps:
+  - action: action_greet_user
+
+- story: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Analyze the conversation and users emotion, continue the flow of the conversation and generate an appropriate response.
+  steps:
+  - intent: user_message
+  - action: action_analyze_emotion_and_generate_response
+
+- story: Handle fallback
+  steps:
+  - action: utter_default

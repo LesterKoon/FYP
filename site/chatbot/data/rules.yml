@@ -1,0 +1,27 @@
+version: "3.1"
+
+rules:
+
+  - rule: Greet user at the start
+    steps:
+      - action: action_session_start
+      - action: action_greet_user
+
+  - rule: Respond to user greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Trigger emotion analysis
+    steps:
+      - intent: user_message
+      - action: action_analyze_emotion_and_generate_response
+
+  - rule: Handle fallback
+    steps:
+      - action: utter_default

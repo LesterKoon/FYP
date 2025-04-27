@@ -1,0 +1,50 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+
+- intent: user_message
+  examples: |
+    - Okay
+    - Great
+    - Yes
+    - No
+    - I'm not sure
+    - I don't know
+    - I can't say
+    - I don't think so
+    - I don't want to
+    - I don't have time
+    - I'm busy
+    - I'm not interested
+    - I'm not ready
+    - Thank you
+    - I'm feeling great today
+    - I'm feeling so happy today!
+    - I feel really sad about this.
+    - I'm very excited about the future.
+    - Life feels overwhelming right now.
+    - I feel calm and peaceful.
+    - I'm scared about what's happening.
+    - I'm really angry at this situation.
+    - I'm full of energy today!
+    - I feel pretty neutral.
+    - Today is just another day.
+    - I'm not sure how I feel right now.
+    - Everything feels confusing.
+    - I feel like celebrating!
+    - I need some inspiration today.
+    - I'm tired and a little down.
+    - I'm stressed about work.
+    - I'm looking forward to the weekend.
+    - I'm grateful for everything today.

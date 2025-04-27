@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - user_message
+
+slots:
+  weighted_emotions:
+    type: any
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Hi there, welcome to VibeSync! What's on your mind today?"
+    - text: "Hi there, welcome to VibeSync! What did you do today?"
+    - text: "Hi there, welcome to VibeSync! Let me know how I can help!"
+    - text: "Hi there, welcome to VibeSync! How's your day going so far?"
+    - text: "Hi there, welcome to VibeSync! How are you doing?"
+    - text: "Hi there, welcome to VibeSync! Anything interesting happened lately?"
+    - text: "Hi there, welcome to VibeSync! How's life been?"
+    - text: "Hi there, welcome to VibeSync! What's new with you?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a good one!"
+    - text: "Take care! See you next time."
+    - text: "Ciao!"
+    - text: "Bye!!!"
+
+  utter_openai_response:
+    - text: "Give me a moment while I think this through..."
+    - text: "Let me process that and get back to you in a second."
+    - text: "Hang on, I'm thinking..."
+    - text: "Hmmm..."
+    - text: "Computing. Computing..."
+
+  utter_default:
+    - text: "I'm not sure I understood that. Could you tell me more?"
+    - text: "Hmm, can you clarify what you mean?"
+    - text: "I'm here to help, but I didn't quite get that. Could you elaborate?"
+    - text: "Sorry, I didn't catch that. Can you explain a bit more?"
+
+actions:
+  - action_greet_user
+  - action_analyze_emotion_and_generate_response
