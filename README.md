@@ -1,5 +1,7 @@
 # VibeSync: Emotion-Based Music Recommendation System
 
+VibeSync is my Final Year Project (FYP) for my Bachelor's degree in Computer Science. It is an emotion-based music recommendation system integrated with a chatbot for seamless user interaction. The project leverages advanced AI and machine learning techniques to classify songs using weighted emotion labels, allowing for a deeper understanding of user needs. Unlike traditional recommendation systems, VibeSync dynamically adapts to individual emotional states and experiences in real time, offering more personalized and meaningful music suggestions.
+
 ## Project Overview
 VibeSync is an innovative application designed to recommend music based on user emotions, with features including:
 - **Emotion Recognition**: Detect user emotions through text and recommend songs accordingly.
