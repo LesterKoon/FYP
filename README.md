@@ -11,13 +11,13 @@ VibeSync is an innovative application designed to recommend music based on user 
 
 ## File Structure
 ```
-Chatbot Data Processing        - Process data to train the chatbot
-Chatbot Model                  - Fine-tuned model of the chatbot
-Music Data Processing          - Process data to train the music emotion prediction model
-Emotion Recognition Model Training - Classify songs with emotion labels
-site                           - Main web application
-site/backend                   - Backend services of the web application
-site/chatbot                   - Chatbot model of the application
+Chatbot Data Processing               - Process data to train the chatbot
+Chatbot Model                         - Fine-tuned model of the chatbot
+Music Data Processing                 - Process data to train the music emotion prediction model
+Emotion Recognition Model Training    - Classify songs with emotion labels
+site                                  - Main web application
+site/backend                          - Backend services of the web application
+site/chatbot                          - Chatbot model of the application
 ```
 
 ## Prerequisites
