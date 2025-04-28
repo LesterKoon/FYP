@@ -108,8 +108,5 @@ npm start
 - Fork the repository and create feature branches for any changes.
 - Submit pull requests for review before merging into the main branch.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
-For questions or issues, please contact [Your Name] at [Your Email].
+For questions or issues, please contact Lester Koon at lester.koon.zm@gmail.com
