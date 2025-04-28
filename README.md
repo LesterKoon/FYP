@@ -102,6 +102,20 @@ Navigate to the root directory and run:
 npm start
 ```
 
+## Screenshots
+
+### Home Page
+![Home Page](./site/screenshots/Homepage.png)
+
+### Chatbot Interaction
+![Chatbot Initialization](./site/screenshots/Chatbot-1.png)
+![Chatbot Recommendations](./site/screenshots/Chatbot-2.png)
+![Chatbot Emotion Prediction](./site/screenshots/Chatbot-3.png)
+
+### Playlist Insertion
+![Playlist Insertion](./site/screenshots/InsertPlaylist.png)
+
+
 ## Important Information
 - The Emotion Recognition model weights are not included in this repository.
 - All API tokens and access keys provided in the repository are intentionally invalid and are for placeholder/demo purposes only.
